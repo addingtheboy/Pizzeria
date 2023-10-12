@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    padding: 2rem;
+    background-color: #F3F3F3;
+    position: relative
+}
+
+header, footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: #222222;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+h2{
+    color: #FB280F;
+    font-size: 1.5rem;
+    padding: 1rem
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo img{
+    padding: 0.5rem;
+   
+}
+
+.menu a{
+    color: white;
+}
+
+#main.menu{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#main.menu a{
+    padding-right: 1rem;
+}
+
+#extra.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0.5rem;
+}
+
+#extra.menu a{
+    margin: 0.5rem;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90vw;
+}
+
+.banner-img{
+    background-image: url("../img/delivery.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 64vh;    
+}
+
+.banner-img, .banner-info{
+    position: relative;
+    width: 35vw;
+    border-radius: 1rem;
+    padding: 2rem 3rem ;
+    margin: 0.5rem;
+}
+
+.banner-info{ 
+    background-color: white; 
+}
+
+.banner-img h2{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner-info h2{
+    text-align: center;
+}
+
+.banner-img span{
+    color: white;
+    font-size: inherit;
+}
+
+.banner-info img{
+    position: absolute;
+    right:2rem;
+    bottom: 1.5rem;
+}
+
+.banner-info h3{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.banner-info ol{
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.banner-info ol li{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+
